@@ -1,11 +1,21 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /* SELETORES */
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 ul{
     list-style: none;
+}
+
+/* MAIN-CONTAINER */
+
+.main-container {
+    max-width: 1200px;
+    margin: auto;
 }
 
 /* HEADER */
@@ -14,6 +24,9 @@ header{
     overflow: hidden;
     background-color: lightgreen;
     padding: 10px;
+    border-bottom: 5px solid green;
+    position: sticky;
+    top: 0px;
 }
 .logo{
     float: left;
@@ -22,28 +35,123 @@ nav{
     float: right;
 }
 .itens-menu{
-    color: white;
-    background: blue;
+    color: black;
+    background: rgb(46, 231, 46);
     float: left;
-    padding: 5px;
+    padding: 5px 10px;
     margin: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.itens-menu:hover, .itens-menu:active{
+    background: green;
+    color: white;
 }
 
 /* MAIN */
 
-.produto{
-    width: 200px;
-    height: 300px;
-    background: blue;
-    color: white;
+/* .PRODUTOS */
+
+.title-section{
+    font-size: 20px;
+    background: linear-gradient(to bottom, rgb(253, 150, 167), pink);
+    padding: 10px;
+    margin: auto;
     text-align: center;
 }
-.imagem{
-    width: 100%;
-    height: 50%;
-    background: lightblue;
+.float-image{
+    max-width: 40%;
+    float: right;
 }
-.name-produto{
+.container-produtos{
+    padding: 20px;
+    text-align: center;
+}
+.card{
+    background: white;
     display: inline-block;
-    font-size: 25px;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
 }
+.picture{
+    max-width: 200px;
+}
+.title-produto{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+.valor{
+    padding: 25px 0px;
+    color: blue;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+.btn-snow{
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    width: 85%;
+    border: none;
+    background: darkblue;
+    border-radius: 8px;
+}
+.btn-snow:hover, .btn-snow:active{
+    opacity: 85%;
+}
+/* .FUNCIONAMENTO */
+.container-funcionamento{
+    overflow: hidden;
+    padding: 20px;
+}
+.horario{
+    float: left;
+    padding: 10vw;
+    border: 3px solid orange;
+    border-radius: 8px;
+    text-align: center;
+}
+.days{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.hours{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* CONTATOS */
+.container-contato{
+    overflow: hidden;
+    padding: 10px;
+}
+.list-contato{
+    float: left;
+    padding: 10vw;
+    border: 3px solid orange;
+    border-radius: 8px;
+    text-align: center;
+}
+.midea-title{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
+}
+.midea-itens{
+    text-align: center;
+    max-width: 200px;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.whats{background: green;}
+.face{background: blue;}
+.insta{background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); }

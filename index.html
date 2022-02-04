@@ -13,27 +13,114 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <h1>Perfumaria</h1>
-        </div>
-        <nav>
-            <ul>
-                <li class="itens-menu">Protudos</li>
-                <li class="itens-menu">Social</li>
-                <li class="itens-menu">Funcionarios</li>
-                <li class="itens-menu">Novidades</li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="produto">
-            <div class="imagem"></div>
-            <div class="name-produto">
-                Sabão de cocô
+    <div class="main-container">
+        <header>
+            <div class="logo">
+                <h1>Perfumaria</h1>
             </div>
-        </div>
-    </main>
+            <nav>
+                <a href="#produtos" class="itens-menu">Produto</a>
+                <a href="#funcionamento" class="itens-menu">Funcionamento</a>
+                <a href="#contato" class="itens-menu">Contato</a>
+            </nav>
+        </header>
+        <main>
+            <section id="produtos" class="produtos">
+                <div class="title-section">
+                    <h2>Produtos</h2>
+                </div>
+
+                <div class="container-produtos">
+                    <div class="card">
+                        <img class="picture"
+                            src="https://images-americanas.b2w.io/produtos/01/00/img/2085861/5/2085861503_1GG.jpg"
+                            alt="Viara perfume">
+                        <hr>
+                        <div class="title-produto">
+                            Kaiak
+                        </div>
+                        <div class="valor">
+                            69,59 R$
+                        </div>
+                        <button class="btn-snow">Ver Mais</button>
+                    </div>
+                    <div class="card">
+                        <img class="picture"
+                            src="https://images-americanas.b2w.io/produtos/01/00/img/53676/3/53676324_1GG.jpg"
+                            alt="Viara perfume">
+                        <hr>
+                        <div class="title-produto">
+                            Homem - Essence
+                        </div>
+                        <div class="valor">
+                            99,99 R$
+                        </div>
+                        <button class="btn-snow">Ver Mais</button>
+                    </div>
+                    <div class="card">
+                        <img class="picture"
+                            src="https://images-americanas.b2w.io/produtos/63929177/imagens/perfume-colonia-essencial-exclusivo-masculino-natura-100ml/63929179_1_large.jpg"
+                            alt="Viara perfume">
+                        <hr>
+                        <div class="title-produto">
+                            Essencial - Exclusivo
+                        </div>
+                        <div class="valor">
+                            119,99 R$
+                        </div>
+                        <button class="btn-snow">Ver Mais</button>
+                    </div>
+                </div>
+            </section>
+            <section id="funcionamento" class="funcionamento">
+                <div class="title-section">
+                    <h2>Funcionamento</h2>
+                </div>
+                <div class="container-funcionamento">
+                    <div class="horario">
+                        <p class="days">
+                            Segunda à Sexta
+                        </p>
+                        <p class="hours">
+                            <span style="color: green;">07:00</span> às <span style="color: red;">11:00</span>
+                        </p>
+                        <p class="hours">
+                            <span style="color: green;">13:00</span> às <span style="color: red;">17:00</span>
+                        </p>
+                    </div>
+                    <img class="float-image" src="https://image.flaticon.com/icons/png/512/87/87717.png"
+                        alt="Imagem de Horário">
+                </div>
+            </section>
+
+        </main>
+        <footer>
+            <section id="contato" class="contato">
+                <div class="title-section">
+                    <h2>Contato</h2>
+                </div>
+                <div class="container-contato">
+                    <div class="list-contato">
+                        <span class="midea-title">Mídeas Sociais</span>
+                        <ul>
+                            <a href="#" style="text-decoration: none;">
+                                <li class="midea-itens whats">Whatsapp</li>
+                            </a>
+                            <a href="#" style="text-decoration: none;">
+                                <li class="midea-itens face">Facebook</li>
+                            </a>
+                            <a href="#" style="text-decoration: none;">
+                                <li class="midea-itens insta">Instagram</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <img class="float-image"
+                        src="https://jornalboavista.com.br/site/wp-content/uploads/2020/03/fdec4032a25557564976374b8f6ba6bb.png"
+                        alt="Foto de Mídeas">
+                </div>
+            </section>
+        </footer>
+    </div>
 </body>
 
 </html>
