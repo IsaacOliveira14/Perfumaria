@@ -22,10 +22,11 @@ ul {
 
 header {
   overflow: hidden;
-  background: linear-gradient(to bottom, rgb(230, 117, 136), pink);
-  padding: 10px;
+  background-color: #da36a6;
+  padding: 20px;
 }
 .logo {
+  color: white;
   float: left;
 }
 nav {
@@ -41,8 +42,8 @@ nav {
 }
 .itens-menu:hover,
 .itens-menu:active {
-  background: pink;
-  color: blue;
+  background: #bc1888;
+  color: white;
 }
 
 /* MAIN */
