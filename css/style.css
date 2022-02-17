@@ -11,13 +11,6 @@ ul {
   list-style: none;
 }
 
-/* MAIN-CONTAINER */
-
-.main-container {
-  max-width: 1200px;
-  margin: auto;
-}
-
 /* HEADER */
 
 header {
@@ -47,29 +40,6 @@ nav {
 }
 
 /* MAIN */
-
-/* WELCOME */
-
-.wellcome {
-  background: url("https://www.acheiusa.com/wp-content/uploads/2017/12/Perfumes.jpg")
-    center;
-  background-repeat: no-repeat;
-  text-align: center;
-}
-
-.mensage-well {
-  box-sizing: border-box;
-  max-width: 300px;
-  display: inline-block;
-  text-align: center;
-  padding: 10px;
-  margin: 200px;
-  background: pink;
-  font-size: 30px;
-  color: darkcyan;
-  text-transform: uppercase;
-  border: 5px solid rgb(241, 124, 144);
-}
 
 /* .PRODUTOS */
 
