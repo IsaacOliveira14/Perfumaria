@@ -17,6 +17,7 @@ header {
   overflow: hidden;
   background-color: #da36a6;
   padding: 20px;
+  border-end-start-radius: 30px;
 }
 .logo {
   color: white;
@@ -40,6 +41,44 @@ nav {
 }
 
 /* MAIN */
+
+/* ABOUT */
+.about{
+  overflow: hidden;
+}
+
+.container-about{
+  float: left;
+  max-width: 400px;
+  text-align: center;
+  padding: 10px;
+  margin: 100px;
+}
+.title-about, .content-about{
+  margin-bottom: 10px;
+}
+.title-about{
+  font-size: 30px;
+}
+.content-about{
+  font-size: 20px;
+  
+}
+.btn-produtos{
+  text-decoration: none;
+  color: white;
+  border: none;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+  background: linear-gradient(to bottom, rgb(148, 0, 148), rgb(240, 0, 240));
+  cursor: pointer;
+}
+.image-woman{
+  float: right;
+  max-width: 300px;
+
+}
 
 /* .PRODUTOS */
 
