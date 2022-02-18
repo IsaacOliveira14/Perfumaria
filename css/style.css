@@ -90,10 +90,6 @@ nav {
 
 /* .PRODUTOS */
 
-.float-image {
-  max-width: 400px;
-  float: right;
-}
 .container-produtos {
   padding: 20px;
   text-align: center;
