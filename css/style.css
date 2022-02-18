@@ -42,6 +42,14 @@ nav {
 
 /* MAIN */
 
+.title-section {
+  font-size: 20px;
+  background: linear-gradient(to bottom, rgb(253, 150, 167), pink);
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+
 /* ABOUT */
 .about{
   overflow: hidden;
@@ -65,14 +73,14 @@ nav {
   
 }
 .btn-produtos{
+  display: inline-block;
+  width: 100%;
   text-decoration: none;
   color: white;
-  border: none;
-  width: 100%;
   font-size: 18px;
   padding: 10px;
+  border-radius: 10px;
   background: linear-gradient(to bottom, rgb(148, 0, 148), rgb(240, 0, 240));
-  cursor: pointer;
 }
 .image-woman{
   float: right;
@@ -82,13 +90,6 @@ nav {
 
 /* .PRODUTOS */
 
-.title-section {
-  font-size: 20px;
-  background: linear-gradient(to bottom, rgb(253, 150, 167), pink);
-  padding: 10px;
-  margin: auto;
-  text-align: center;
-}
 .float-image {
   max-width: 400px;
   float: right;
@@ -111,8 +112,8 @@ nav {
 }
 .title-produto {
   font-size: 20px;
-  margin: 10px;
-  top: 10px;
+  margin-top: 5px;
+  width: 100%;
 }
 .valor {
   padding: 25px 0px;
