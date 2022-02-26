@@ -133,28 +133,25 @@ nav {
 }
 /* CONTATOS */
 .container-contato {
-  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   padding: 10px;
 }
-.list-contato {
-  float: left;
-  padding: 10vw;
-  border: 3px solid orange;
-  border-radius: 8px;
-  text-align: center;
-}
 .midea-title {
-  font-size: 25px;
+  font-size: 50px;
   text-transform: uppercase;
   font-weight: bold;
-  position: relative;
-  bottom: 20px;
+}
+.midea-list{
+  
 }
 .midea-itens {
   text-align: center;
-  max-width: 200px;
+  width: 100%;
   color: white;
-  padding: 10px 50px;
+  padding: 30px;
+  font-size: 20px;
   border-radius: 10px;
   margin-bottom: 5px;
 }
