@@ -13,7 +13,30 @@ ul {
 
 /* HEADER */
 
-
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+  padding: 20px;
+  background: purple;
+}
+.logo{
+  color: rgb(243, 243, 187); 
+}
+.header-menu{
+  display: flex;
+  gap: 20px;
+}
+.menu-item{
+  text-decoration: none;
+  color: gold;
+  padding: 5px;
+}.menu-item:hover{
+  background: #be248d;
+  border-radius: 8px;
+}
 
 /* MAIN */
 
