@@ -13,7 +13,7 @@ ul {
 
 /* HEADER */
 
-header{
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -22,18 +22,19 @@ header{
   padding: 20px;
   background: purple;
 }
-.logo{
-  color: rgb(243, 243, 187); 
+.logo {
+  color: rgb(243, 243, 187);
 }
-.header-menu{
+.header-menu {
   display: flex;
   gap: 20px;
 }
-.menu-item{
+.menu-item {
   text-decoration: none;
   color: gold;
   padding: 5px;
-}.menu-item:hover{
+}
+.menu-item:hover {
   background: #be248d;
   border-radius: 8px;
 }
@@ -46,44 +47,6 @@ header{
   padding: 15px;
   margin: auto;
   text-align: center;
-}
-
-/* ABOUT */
-.about{
-  overflow: hidden;
-}
-
-.container-about{
-  float: left;
-  max-width: 400px;
-  text-align: center;
-  padding: 10px;
-  margin: 100px;
-}
-.title-about, .content-about{
-  margin-bottom: 10px;
-}
-.title-about{
-  font-size: 30px;
-}
-.content-about{
-  font-size: 20px;
-  
-}
-.btn-produtos{
-  display: inline-block;
-  width: 100%;
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-  padding: 10px;
-  border-radius: 10px;
-  background: linear-gradient(to bottom, rgb(148, 0, 148), rgb(240, 0, 240));
-}
-.image-right{
-  float: right;
-  max-width: 300px;
-
 }
 
 /* .PRODUTOS */
