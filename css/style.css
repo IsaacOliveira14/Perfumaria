@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 /* SELETORES */
 body {
@@ -30,7 +31,6 @@ header {
   gap: 20px;
 }
 .menu-item {
-  text-decoration: none;
   color: gold;
   padding: 5px;
 }
