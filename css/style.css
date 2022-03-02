@@ -23,8 +23,16 @@ header {
   padding: 20px;
   background: purple;
 }
-.logo {
+.container-logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo-title {
   color: rgb(243, 243, 187);
+}
+.logo-image{
+  height: 65px;
 }
 .header-menu {
   display: flex;
