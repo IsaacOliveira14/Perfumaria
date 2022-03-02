@@ -47,6 +47,34 @@ header {
   padding: 15px;
   margin: auto;
   text-align: center;
+
+}
+
+/* WELLCOME */
+
+.wellcome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 50px;
+
+}
+.wellcome-title{
+  font-size: 30px;
+  font-weight: lighter;
+}
+.wellcome-mensage{
+  color: rgb(90, 0, 90);
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.wellcome-button{
+  font-size: 25px;
+  color: yellow;
+  background: rgb(212, 0, 212);
+  padding: 20px 30px;
+  border-radius:  20px 0 20px 0 ;
 }
 
 /* .PRODUTOS */
@@ -76,7 +104,6 @@ header {
   padding: 25px 0px;
   color: rgb(15, 136, 96);
   font-size: 25px;
-  box-sizing: border-box;
 }
 .btn-snow {
   text-transform: uppercase;
