@@ -23,7 +23,7 @@ header {
   padding: 20px;
   background: purple;
 }
-.container-logo{
+.container-logo {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -31,7 +31,7 @@ header {
 .logo-title {
   color: rgb(243, 243, 187);
 }
-.logo-image{
+.logo-image {
   height: 65px;
 }
 .header-menu {
@@ -152,7 +152,7 @@ header {
   font-size: 35px;
   color: purple;
 }
-.attendance-hours{
+.attendance-hours {
   font-size: 30px;
 }
 
